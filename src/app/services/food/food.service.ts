@@ -14,7 +14,7 @@ export class FoodService {
         name:'Pizza Pepperoni',
         cookTime:'10-20',
         price:10,
-        favourite:false,
+        favourite:true,
         origins:['italy'],
         stars:4.5,
         imageUrl:'/assets/food1.jpeg',
@@ -36,7 +36,7 @@ export class FoodService {
         name:'Noodles Pepperoni',
         cookTime:'10-20',
         price:10,
-        favourite:false,
+        favourite:true,
         origins:['italy'],
         stars:4.5,
         imageUrl:'/assets/food3.jpeg',
@@ -44,29 +44,6 @@ export class FoodService {
       },
       {
         id:4,
-        name:'Toast Pepperoni',
-        cookTime:'10-20',
-        price:10,
-        favourite:false,
-        origins:['italy'],
-        stars:4.5,
-        imageUrl:'/assets/food4.jpeg',
-        tags:['FastFood','Pizza','Lunch']
-      },
-      {
-        id:5,
-        name:'Sewai Pepperoni',
-        cookTime:'10-20',
-        price:10,
-        favourite:false,
-        origins:['italy'],
-        stars:4.5,
-        imageUrl:'/assets/food5.jpeg',
-        tags:['FastFood','Pizza','Lunch']
-      },
-      
-      {
-        id:6,
         name:'Sandwich Pepperoni',
         cookTime:'10-20',
         price:10,
@@ -77,7 +54,7 @@ export class FoodService {
         tags:['FastFood','Pizza','Lunch']
       },
       {
-        id:7,
+        id:5,
         name:'Sandwich Pepperoni',
         cookTime:'10-20',
         price:10,
@@ -88,7 +65,7 @@ export class FoodService {
         tags:['FastFood','Pizza','Lunch']
       },
       {
-        id:8,
+        id:6,
         name:'Sandwich Pepperoni',
         cookTime:'10-20',
         price:10,

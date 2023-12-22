@@ -24,3 +24,47 @@ li a:hover{
     cursor: pointer;
 }
 
+.content{
+    padding: .5rem 1rem;
+    position: relative;
+}
+
+.favourite{
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 1.2rem;
+}
+
+.favourite.not{
+    color:black;
+}
+
+.product-item-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.origins{
+    flex: 9;
+}
+
+.origins span{
+    border-radius: 2rem;
+    background-color: whitesmoke;
+    color: gray;
+    font-size: .9rem;
+    margin-right: .3rem;
+}
+
+.cook-time{
+    font-size: .8rem;
+    flex: 3;
+    text-align: right;
+}
+
+.price{
+    color:gray;
+    margin-top: .2rem;
+}

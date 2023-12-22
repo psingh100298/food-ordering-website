@@ -6,7 +6,7 @@
         <div class="name">
           {{ food.name }}
         </div>
-        <span class="favourite {{ food.favourite ? '' : 'not' }}">&#9825;</span>
+        <span class="favourite {{ food.favourite ? '' : 'not' }}">&#9829;</span>
       
       <div class="product-item-footer">
         <div class="origins">
@@ -18,10 +18,11 @@
       <div class="cook-time">
         <span>&#9200;</span>{{food.cookTime}}
       </div>
-      <div class="price">
+      
+    </div>
+    <div class="price">
         {{food.price | currency}}
       </div>
-    </div>
 </div>
     </a>
   </li>
