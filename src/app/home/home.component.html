@@ -2,30 +2,27 @@
 <app-tags></app-tags>
 <ul>
   <li *ngFor="let food of foods">
-    <a
+    <a routerLink="/food/{{ food.id }}"
       ><img src="{{ food.imageUrl }}" alt="food images" />
       <div class="content">
         <div class="name">
           {{ food.name }}
         </div>
         <span class="favourite {{ food.favourite ? '' : 'not' }}">&#9829;</span>
-      
-      <div class="product-item-footer">
-        <div class="origins">
-          <span *ngFor="let origin of food.origins">
-            {{ origin }}
-          </span>
+
+        <div class="product-item-footer">
+          <div class="origins">
+            <span *ngFor="let origin of food.origins">
+              {{ origin }}
+            </span>
+          </div>
+
+          <div class="cook-time"><span>&#9200;</span>{{ food.cookTime }}</div>
         </div>
-      
-      <div class="cook-time">
-        <span>&#9200;</span>{{food.cookTime}}
+        <div class="price">
+          {{ food.price | currency }}
+        </div>
       </div>
-      
-    </div>
-    <div class="price">
-        {{food.price | currency}}
-      </div>
-</div>
     </a>
   </li>
 </ul>
